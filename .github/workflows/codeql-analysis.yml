@@ -60,7 +60,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-       ./eschalot -vp rebbeli
+       ./eschalot -p a 
     #   make release
 
     - name: Perform CodeQL Analysis
